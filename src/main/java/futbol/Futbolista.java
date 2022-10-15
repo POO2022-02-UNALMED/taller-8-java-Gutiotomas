@@ -20,6 +20,14 @@ public abstract class Futbolista implements Comparable<Object>{
         return posicion;
     }
     
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+    
     public Futbolista(){
 
         this.nombre = "Maradona";
@@ -43,12 +51,5 @@ public abstract class Futbolista implements Comparable<Object>{
     }
 
     public abstract boolean jugarConLasManos();
-    
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-    
-    public void setEdad(int edad) {
-        this.edad = edad;
-    }
+
 }
