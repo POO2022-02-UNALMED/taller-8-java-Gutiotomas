@@ -28,6 +28,13 @@ public abstract class Futbolista implements Comparable<Object>{
         this.edad = edad;
     }
     
+    public Futbolista(String nombre, int edad, String posicion) {
+
+        this.nombre = nombre;
+        this.edad = edad;
+        this.posicion = posicion;
+    }
+    
     public Futbolista(){
 
         this.nombre = "Maradona";
